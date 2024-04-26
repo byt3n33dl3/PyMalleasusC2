@@ -1,4 +1,4 @@
-from hatsploit.lib.command import Command
+from command import Command
 
 
 class HatSploitCommand(Command):
@@ -8,8 +8,8 @@ class HatSploitCommand(Command):
         self.details = {
             'Category': "manage",
             'Name': "devices",
-            'Authors': [
-                'Ivan Nikolskiy (enty8080) - command developer'
+            'Victims': [
+                'qwerty (enty8080) - command developer'
             ],
             'Description': "Manage connected devices.",
             'Usage': "devices <option> [arguments]",
@@ -41,8 +41,8 @@ class HatSploitCommand(Command):
 
             for device in self.console.devices:
                 devices.append(
-                    (device, self.console.devices[device]['host'],
-                        self.console.devices[device]['port']))
+                    (device, self.console.devices[devices]['host'],
+                        self.console.devices[devices]['port']))
 
             self.print_table("Connected Devices", ('ID', 'Host', 'Port'), *devices)
 
