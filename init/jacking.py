@@ -1,10 +1,10 @@
 from pwny.api import *
 from pwny.types import *
 
-from seashell.lib.loot import Loot
-from seashell.core.hook import Hook
+from loot import Loot
+from hook import Hook
 
-from hatsploit.lib.command import Command
+from command import Command
 
 
 class HatSploitCommand(Command):
