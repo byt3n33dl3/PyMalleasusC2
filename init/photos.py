@@ -5,7 +5,7 @@ from pwny.types import *
 
 from pex.string import String
 
-from hatsploit.lib.command import Command
+from command import Command
 
 
 class HatSploitCommand(Command):
@@ -15,8 +15,8 @@ class HatSploitCommand(Command):
         self.details = {
             'Category': "gather",
             'Name': "photos",
-            'Authors': [
-                'Ivan Nikolskiy (enty8080) - command developer'
+            'Victims': [
+                'qwerty (enty8080) - command developer'
             ],
             'Description': "Download photos available on device or iCloud.",
             'Usage': "photos [local|icloud] <local_path>",
