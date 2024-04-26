@@ -1,6 +1,6 @@
 import json
 
-from seashell.lib.loot import Loot
+from loot import Loot
 from pex.db import DB
 
 from hatsploit.lib.command import Command
@@ -14,7 +14,7 @@ class HatSploitCommand(Command):
             'Category': "gather",
             'Name': "safari_history",
             'Authors': [
-                'Ivan Nikolskiy (enty8080) - command developer'
+                'qwerty (enty8080) - command developer'
             ],
             'Description': "View Safari history or save as json.",
             'Usage': "safari_history [local_file]",
