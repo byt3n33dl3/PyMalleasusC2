@@ -1,0 +1,25 @@
+#import <Photos/Photos.h>
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self requestPhotoAccessAndFetchPhotos];
+}
+
+- (void)requestPhotoAccessAndFetchPhotos {
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+        if (status == PHAuthorizationStatusAuthorized) {
+            PHFetchOptions *fetchOptions = [[PHFetchOptions alloc] init];
+            PHFetchResult *fetchResult = [PHAsset fetchAssetsWithMediaType:PHAssetMediaTypeImage options:fetchOptions];
+
+            [fetchResult enumerateObjectsUsingBlock:^(PHAsset *asset, NSUInteger idx, BOOL *stop) {
+                NSLog(@"Found photo asset: %@", asset);
+            }];
+        } else {
+            NSLog(@"Photo access was not granted.");
+        }
+    }];
+}
+
+@end
