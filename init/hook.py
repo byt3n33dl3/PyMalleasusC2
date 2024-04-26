@@ -6,7 +6,7 @@ from alive_progress import alive_bar
 from typing import Optional
 from pex.string import String
 
-from seashell.lib.config import Config
+from config import Config
 
 
 class Hook(object):
