@@ -1,12 +1,12 @@
 import ctypes
 import threading
 
-from seashell.core.device import (
+from device import (
     Device,
     DeviceHandler
 )
 
-from hatsploit.lib.command import Command
+from command import Command
 
 
 class HatSploitCommand(Command):
