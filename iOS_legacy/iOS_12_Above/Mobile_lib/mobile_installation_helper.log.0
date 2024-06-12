@@ -1,0 +1,3 @@
+Sun Oct  7 22:15:12 2018 [129] <notice> (0x16d8eb000) -[MobileInstallationHelperService _writeMigrationFileToDiskAtURL:]: Migration successfully completed. Writing file at file:///private/var/installd/Library/MobileInstallation/RoleUserMigration.plist
+Sun Oct  7 22:15:12 2018 [129] <notice> (0x16d977000) -[MISystemAppDataContainerMigrator performMigrationWithError:]: Migrating system app data containers
+Sun Oct  7 22:15:12 2018 [129] <notice> (0x16d977000) -[MISystemAppDataContainerMigrator performMigrationWithError:]: Migration complete

@@ -1,0 +1,36 @@
+Thu Nov 29 10:25:02 2018 [103] <debug> (0x104fc2b80) MA: main: is_fpga: false
+Thu Nov 29 10:25:02 2018 [103] <debug> (0x104fc2b80) MA: main: ____________________________________________________________________
+Thu Nov 29 10:25:03 2018 [103] <debug> (0x104fc2b80) MA: dealwith_activation: Activation State: Activated
+Thu Nov 29 10:25:08 2018 [103] <notice> (0x16b547000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: ____________________ Mobile Activation Startup _____________________
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: build_version: 16A366
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: internal_build: false
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: uid: 501
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: user_name: mobile
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: system_container_path: /private/var/containers/Data/System/60E1BACB-2F85-47CE-957B-D067A973FD9A
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/AB81C3EA-7757-4FC2-AAF7-7478AFCFCA21
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: hardware_model: D221AP
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: product_type: iPhone10,6
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: device_class: iPhone
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: has_telephony: true
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: should_hactivate: false
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: is_fpga: false
+Fri Nov 30 10:54:37 2018 [104] <debug> (0x1053d6b80) MA: main: ____________________________________________________________________
+Fri Nov 30 10:54:38 2018 [104] <debug> (0x1053d6b80) MA: dealwith_activation: Activation State: Activated
+Fri Nov 30 10:54:43 2018 [104] <notice> (0x16b3a3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: ____________________ Mobile Activation Startup _____________________
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: build_version: 16A366
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: internal_build: false
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: uid: 501
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: user_name: mobile
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: system_container_path: /private/var/containers/Data/System/60E1BACB-2F85-47CE-957B-D067A973FD9A
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/AB81C3EA-7757-4FC2-AAF7-7478AFCFCA21
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: hardware_model: D221AP
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: product_type: iPhone10,6
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: device_class: iPhone
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: has_telephony: true
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: should_hactivate: false
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: is_fpga: false
+Tue Dec  4 11:58:15 2018 [114] <debug> (0x1049cab80) MA: main: ____________________________________________________________________
+Tue Dec  4 11:58:16 2018 [114] <debug> (0x1049cab80) MA: dealwith_activation: Activation State: Activated
+Tue Dec  4 11:58:21 2018 [114] <notice> (0x16b9fb000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter

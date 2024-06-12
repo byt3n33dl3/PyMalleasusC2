@@ -1,0 +1,10 @@
+Sun Oct  7 22:15:13 2018 [132] <notice> (0x16b38f000) -[ACXAvailableApplicationManager init]_block_invoke: No saved app state found.
+Sun Oct  7 22:15:29 2018 [132] <notice> (0x16b38f000) -[ACXAvailableApplicationManager _onQueue_reSyncWithLS]: Rebuilding app info because we're out of sync with LS
+Sun Oct  7 22:15:29 2018 [132] <notice> (0x16b38f000) -[ACXGizmoStateManager noteDatabaseRebuild]: Posting ACXApplicationsUpdatedDarwinNotification because database changed
+Sun Oct  7 22:15:29 2018 [132] <err> (0x104d7eb80) -[ACXIDSMessaging setDeviceManager:delegate:]_block_invoke: IDS Service <IDSService: 0x104f03810> returned an empty devices array
+Sun Oct  7 22:15:29 2018 [132] <err> (0x16b38f000) -[ACXDeviceManager currentActivePairedDevice]: No active paired device
+Sun Oct  7 22:15:29 2018 [132] <notice> (0x16b38f000) -[ACXAvailableApplicationManager _onQueue_writeAppListToDisk]: Writing app list to disk
+Sun Oct  7 22:15:29 2018 [132] <err> (0x16b41b000) -[ACXDeviceManager currentActivePairedDevice]: No active paired device
+Sun Oct  7 22:15:29 2018 [132] <err> (0x16b533000) -[ACXDeviceManager currentActivePairedDevice]: No active paired device
+Sun Oct  7 22:15:29 2018 [132] <err> (0x16b533000) -[ACXDeviceConnectionClient _gizmoStateForDeviceWithPairingID:error:]: 230: Could not get device state for device with pairing ID (null)
+Sun Oct  7 22:15:29 2018 [132] <err> (0x16b41b000) -[ACXDeviceConnectionClient _gizmoStateForDeviceWithPairingID:error:]: 230: Could not get device state for device with pairing ID (null)

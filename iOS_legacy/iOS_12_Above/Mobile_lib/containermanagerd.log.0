@@ -1,0 +1,73 @@
+Sun Oct  7 22:15:11 2018 [70] <notice> (0x100746b80) main: containermanagerd performing first boot initialization
+Sun Oct  7 22:15:11 2018 [70] <notice> (0x100746b80) -[MCMMigrationStatus _migrateFromManyMarkerFilesToOne]: Migrating from many marker files down to one
+Sun Oct  7 22:15:11 2018 [70] <notice> (0x100746b80) -[MCMMigrationStatus isBuildUpgrade]: Did not find last build info; we must be upgrading from pre-9.3.1 or this is an erase install.
+Sun Oct  7 22:15:11 2018 [70] <notice> (0x100746b80) -[MCMClientConnection _regenerateAllSystemContainerPaths]: Rolling system container directory UUIDs on disk
+Sun Oct  7 22:15:11 2018 [70] <notice> (0x100746b80) -[MCMMigrationStatus writeCurrentBuildInfoToDisk]: Saved last build version of 16A366
+Sun Oct  7 22:15:11 2018 [70] <notice> (0x100746b80) main: containermanagerd first boot cleanup complete
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMContainerMigrator performDataMigratorMigrationWithError:]: Performing Data Migration on 16A366
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMFileManager standardizeAllSystemContainerACLsAtURL:error:]: Potential containers requiring ACL migration: (
+    "D1E0022D-59F4-49A3-A533-25AB75BB4EE0/ -- file:///private/var/containers/Data/System/",
+    "6DA31444-E844-46F5-91B9-F86F861EF5E9/ -- file:///private/var/containers/Data/System/",
+    "9755E679-8644-449E-ACE9-D7B230E1CC22/ -- file:///private/var/containers/Data/System/",
+    "0A544554-888F-47CC-80D8-BDB9B858F440/ -- file:///private/var/containers/Data/System/",
+    "8625E93A-C7A4-493B-8C23-67D2C7213A0F/ -- file:///private/var/containers/Data/System/"
+)
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMFileManager standardizeAllSystemContainerACLsAtURL:error:]: Potential containers requiring ACL migration: (
+    "BCF75FB4-4BAC-46CC-8DBF-83E3BE2F4D49/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "systemgroup.com.apple.icloud.findmydevice.managed/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "systemgroup.com.apple.configurationprofiles/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "6AB2E9DD-A480-4CD3-8344-09FDE1A4D9A9/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "systemgroup.com.apple.nsurlstoragedresources/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "6B951A2A-1225-4A7A-AA4E-FFA7EB19AEA7/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "systemgroup.com.apple.lsd.iconscache/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "1A2B2A9E-798C-4A24-BDD5-B94467B5EC38/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "3D648C38-6E3E-4F57-99D9-25830AB72182/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "systemgroup.com.apple.installcoordinationd/ -- file:///private/var/containers/Shared/SystemGroup/",
+    "systemgroup.com.apple.pisco.suinfo/ -- file:///private/var/containers/Shared/SystemGroup/"
+)
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 16A366 for ACLMigration
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMContainerMigrator _performBundleContainerOwnershipMigrationWithError:]: Changing ownership of bundle container content.
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 16A366 for BundleMigration
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMCodeSigningMapping _onQueue_migrateAppGroupIdsFromDataContainersToFile]: Performing group ID migration
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 16A366 for GroupIdMigration
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMCodeSigningMapping _onQueue_migrateCachedCodeSigningInfoFromBundleContainersToMapping]: Performing code signing migration
+Sun Oct  7 22:15:12 2018 [70] <notice> (0x16fb27000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 16A366 for CodeSigningMigration
+Sun Oct  7 22:16:18 2018 [70] <notice> (0x16fd57000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]: Container data migration requested by com.apple.migrationpluginwrapper for current mobile user: 501
+Sun Oct  7 22:16:18 2018 [70] <notice> (0x16fd57000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]: Performing Per User Subdirectory Migration for 501 on 16A366
+Sun Oct  7 22:16:18 2018 [70] <notice> (0x16fd57000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 16A366 for SubdirectoryMigration
+Sun Oct  7 22:16:18 2018 [70] <notice> (0x16fd57000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]: Completed Per User Subdirectory Migration for 501 on 16A366 : Success: Y
+Sun Oct  7 22:16:18 2018 [70] <notice> (0x16fd57000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]: Performing User Data Protection Migration for 501 on 16A366
+Sun Oct  7 22:16:18 2018 [70] <notice> (0x16fd57000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]: Completed User Data Protection Migration for 501 on 16A366 : Success: Y
+Sun Oct  7 23:07:22 2018 [63] <notice> (0x102ab2b80) main: containermanagerd performing first boot initialization
+Sun Oct  7 23:07:22 2018 [63] <notice> (0x102ab2b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Sun Oct  7 23:07:23 2018 [63] <notice> (0x102ab2b80) main: containermanagerd first boot cleanup complete
+Sat Oct 13 09:08:20 2018 [63] <notice> (0x1046d6b80) main: containermanagerd performing first boot initialization
+Sat Oct 13 09:08:20 2018 [63] <notice> (0x1046d6b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Sat Oct 13 09:08:20 2018 [63] <notice> (0x1046d6b80) main: containermanagerd first boot cleanup complete
+Mon Oct 22 04:20:03 2018 [63] <notice> (0x10274eb80) main: containermanagerd performing first boot initialization
+Mon Oct 22 04:20:03 2018 [63] <notice> (0x10274eb80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Mon Oct 22 04:20:04 2018 [63] <notice> (0x10274eb80) main: containermanagerd first boot cleanup complete
+Mon Oct 22 07:24:04 2018 [63] <notice> (0x102872b80) main: containermanagerd performing first boot initialization
+Mon Oct 22 07:24:04 2018 [63] <notice> (0x102872b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Mon Oct 22 07:24:05 2018 [63] <notice> (0x102872b80) main: containermanagerd first boot cleanup complete
+Tue Nov  6 09:46:53 2018 [63] <notice> (0x104e82b80) main: containermanagerd performing first boot initialization
+Tue Nov  6 09:46:53 2018 [63] <notice> (0x104e82b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Tue Nov  6 09:46:53 2018 [63] <notice> (0x104e82b80) main: containermanagerd first boot cleanup complete
+Wed Nov  7 11:09:48 2018 [63] <notice> (0x103192b80) main: containermanagerd performing first boot initialization
+Wed Nov  7 11:09:48 2018 [63] <notice> (0x103192b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Wed Nov  7 11:09:48 2018 [63] <notice> (0x103192b80) main: containermanagerd first boot cleanup complete
+Thu Nov  8 08:46:03 2018 [63] <notice> (0x1050f2b80) main: containermanagerd performing first boot initialization
+Thu Nov  8 08:46:03 2018 [63] <notice> (0x1050f2b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Thu Nov  8 08:46:03 2018 [63] <notice> (0x1050f2b80) main: containermanagerd first boot cleanup complete
+Wed Dec 31 16:05:33 1969 [63] <notice> (0x10499eb80) main: containermanagerd performing first boot initialization
+Wed Dec 31 16:05:33 1969 [63] <notice> (0x10499eb80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Wed Dec 31 16:05:34 1969 [63] <notice> (0x10499eb80) main: containermanagerd first boot cleanup complete
+Thu Nov 29 10:25:02 2018 [63] <notice> (0x102a5eb80) main: containermanagerd performing first boot initialization
+Thu Nov 29 10:25:02 2018 [63] <notice> (0x102a5eb80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Thu Nov 29 10:25:02 2018 [63] <notice> (0x102a5eb80) main: containermanagerd first boot cleanup complete
+Fri Nov 30 10:54:36 2018 [63] <notice> (0x103186b80) main: containermanagerd performing first boot initialization
+Fri Nov 30 10:54:37 2018 [63] <notice> (0x103186b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Fri Nov 30 10:54:37 2018 [63] <notice> (0x103186b80) main: containermanagerd first boot cleanup complete
+Tue Dec  4 11:58:14 2018 [63] <notice> (0x105422b80) main: containermanagerd performing first boot initialization
+Tue Dec  4 11:58:14 2018 [63] <notice> (0x105422b80) -[MCMMigrationStatus isBuildUpgrade]: Current build version (16A366 / (null)) equal to last version recorded (16A366 / (null)); skipping upgrade
+Tue Dec  4 11:58:15 2018 [63] <notice> (0x105422b80) main: containermanagerd first boot cleanup complete
