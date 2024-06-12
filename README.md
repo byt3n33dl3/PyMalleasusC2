@@ -1,11 +1,11 @@
 ## [Pegasus](https://github.com/pxcs/pegasus_spyware_1.6/) Spyware
 
 <a href="https://github.com/pxcs/BlackMarlinExec/"><p align="center">
-<img width="300" height="300" src="/init/pegasus.png">
+<img width="320" height="320" src="/init/pegasus.png">
 </p></a>
 
 ## About Small Sample of [Pegasus](https://github.com/pxcs/pegasus_spyware_1.6/)
-Pegasus represents a significant advancement in cyber surveillance technology, posing challenges for privacy and security globally. Its capabilities and the controversies surrounding its use highlight the complex interplay between technology, security, and human rights.
+Pegasus represents a significant `advancement` in cyber surveillance technology, posing challenges for privacy and security globally. Its capabilities and the controversies surrounding its use highlight the complex interplay between technology, security, and human rights.
 ### Zero Click Attack & [Exploits](https://www.kaspersky.com/resource-center/definitions/what-is-zero-click-malware)
 The spyware can infect a device without any user interaction through "zero-click" exploits, which leverage vulnerabilities in software like messaging apps (e.g., WhatsApp, iMessage).
 
@@ -45,6 +45,10 @@ The spyware can infect a device without any user interaction through "zero-click
 > - FlightOS
 > - PebbleOS
 > - More...
+
+<a href="https://github.com/pxcs/BlackMarlinExec/"><p align="center">
+<img width="320" height="320" src="/init/pegasus_2.png">
+</p></a>
 
 ### What can this project do for me?
 This project gives access to a number of technologies that have previously been "off limits" to developers. Due to being a private and undocumented API, MobileDevice. Pegasus has not been something that can be safely interacted with. This malware `attacks` provides access to:
