@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
-#include "./esppl_struct.h"
+#include "./struct.h"
 
 extern "C" {
-  #include "user_interface.h"
+  #include "struct.h"
   typedef void (*freedom_outside_cb_t)(uint8 status);
   int  wifi_register_send_pkt_freedom_cb(freedom_outside_cb_t cb);
   void wifi_unregister_send_pkt_freedom_cb(void);
