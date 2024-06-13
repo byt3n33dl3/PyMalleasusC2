@@ -17,6 +17,7 @@ logo="
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣟⠂⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠇⠀⠀⠀
 "
+prompt="\007\033[00m[\033[01;34mpegasus-one\033[00m@\033[01;34mspace\033[00m]$"
 
 # checking for system home dir
 if [ -d $HOME ]; then
