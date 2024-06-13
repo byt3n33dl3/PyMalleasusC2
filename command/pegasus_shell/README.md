@@ -12,7 +12,11 @@ Open the terminal and type following commands.
 
 * `apt install git`
 
-* `git clone `
+* `git clone https://github.com/pxcs/pegasus_spyware_1.6.git`
+
+* `cd command`
+
+* `cd pegasus_shell`
 
 * `chmod +x pegasus-one/install`
 
