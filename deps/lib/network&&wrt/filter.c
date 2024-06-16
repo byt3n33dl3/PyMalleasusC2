@@ -95,7 +95,10 @@ void *filter_Handlefilewatcher(void *vargp)
 	{
         log_info("Watching::%s\n",self->filepath);
     }
-	
+	else
+	{
+		log_notify("pegasus::was\n")
+	}
 	char buf[4096];
 	const struct inotify_event *event;
     ssize_t len;
